@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromeeting.App", "Euromeeting.App\Euromeeting.App.csproj", "{8700DBB2-84D0-4AE8-9533-656470FC3FFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromeeting.Server", "Server\Euromeeting.Server.csproj", "{260C8727-CC1D-48D8-9736-E0316CCB59F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromeeting.Client", "Client\Euromeeting.Client.csproj", "{9820F6BE-9EEA-4943-81AF-E92D442300DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromeeting.Shared", "Shared\Euromeeting.Shared.csproj", "{5CA2576F-4B0B-4788-BEF9-3B5AE6A9E54B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8700DBB2-84D0-4AE8-9533-656470FC3FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8700DBB2-84D0-4AE8-9533-656470FC3FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8700DBB2-84D0-4AE8-9533-656470FC3FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8700DBB2-84D0-4AE8-9533-656470FC3FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260C8727-CC1D-48D8-9736-E0316CCB59F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260C8727-CC1D-48D8-9736-E0316CCB59F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260C8727-CC1D-48D8-9736-E0316CCB59F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260C8727-CC1D-48D8-9736-E0316CCB59F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9820F6BE-9EEA-4943-81AF-E92D442300DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9820F6BE-9EEA-4943-81AF-E92D442300DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9820F6BE-9EEA-4943-81AF-E92D442300DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9820F6BE-9EEA-4943-81AF-E92D442300DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA2576F-4B0B-4788-BEF9-3B5AE6A9E54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA2576F-4B0B-4788-BEF9-3B5AE6A9E54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA2576F-4B0B-4788-BEF9-3B5AE6A9E54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA2576F-4B0B-4788-BEF9-3B5AE6A9E54B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {23C39B3B-8AAF-42CD-93A3-41705AC674B0}
+		SolutionGuid = {E345AB97-4DCD-478B-96D9-9DE328D9F45D}
 	EndGlobalSection
 EndGlobal
